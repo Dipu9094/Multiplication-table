@@ -6,7 +6,7 @@ let mainLi = document.getElementById('main-list')
 
 click.addEventListener('click', (e) => {
 
-    if (inputValue.value%1==0){
+    if (inputValue.value % 1 == 0) {
         while (mainLi.hasChildNodes()) {
             mainLi.removeChild(mainLi.firstElementChild);
         }
@@ -23,7 +23,7 @@ click.addEventListener('click', (e) => {
 
     }
     else {
-        alert('Please enter correct input and must be an integer.')
+        alert('Please enter an integer!!!.')
         inputValue.value = ''
     }
 
